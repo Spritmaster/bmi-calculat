@@ -1,0 +1,202 @@
+.header{
+    display: flex;
+    align-items: center;
+    margin-top: -2rem;
+   
+}
+.info{
+    width: 100%;
+   max-width: 530px;
+}
+.img{
+    display: flex;
+    align-items:center ;
+    position: relative;
+    width: 978px;
+    height: 737px;
+    background: url(../src/image/Rectangle\ 6.svg); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 80px;
+    margin-left: -6rem;
+}
+.calc-tablet{
+    background:var(--white-clr);
+    padding: 3.2rem;
+    box-shadow: 16px 32px 56px 0px #8FAECF40;
+    height: min-content;
+    margin-left: -30rem;
+    z-index: 1000;
+    border-radius: 16px;
+}
+.tablet-title{
+    color:var(--Gunmetal);
+}
+label{
+    color: var(--Gunmetal);
+}
+.radio-wrap{
+    display: flex;
+}
+.labheight{
+    margin-right: 16rem;
+}
+
+.inpt{
+    max-width: 190px;
+    padding: 2rem ;
+    border-radius: 12px;
+    font-size: 2.4rem;
+    line-height: 1.2;
+    color: var(--Gunmetal);
+}
+.inpt::placeholder{
+    font-size: 2.4rem;
+    line-height: 1.2;
+    color: var(--Gunmetal);
+}
+.height{
+    margin-right: 2.5rem;
+    position: relative;
+}
+
+.info-title::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 77px;
+    width: 64px;
+    height: 64px;
+    background-image: url(../src/image/logo.svg);
+
+}
+.all-input-wrap{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+.h-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.w-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.bmiRes{
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    background: #000;
+}
+.result{
+    margin-top: 32px;
+    padding: 3.2rem;
+     background: linear-gradient(90deg, #345FF7 0%, #587DFF 100%);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 999px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 999px;
+    color: var(--white-clr);
+}
+.img-wrapper{
+    display: flex;
+    gap: 14rem;
+    align-items: center;
+    margin-top: 6.5rem;
+}
+.hero-info{
+    width: 100%;
+    max-width: 485px;
+    margin-bottom: -8rem;
+}
+.hero-title{
+    font-weight: 600;
+    font-size: 4.8rem;
+    line-height: 1.3;
+    color: var(--Gunmetal);
+}
+.daily-life{
+    margin-top: 9.6rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 72px 117px 90px 117px;
+    background: linear-gradient(290.1deg, #D6E6FE 0%, rgba(214, 252, 254, 0) 100%);
+    border-radius: 35px;
+    margin-left: -10rem;
+}
+.life-title{
+    font-size: 2.4rem;
+    color: var(--Gunmetal);
+}
+.life-text{
+    width: 100%;
+    max-width: 365px;
+}
+.limitation{
+    margin-top: 12rem;
+}
+.limi-info{
+    display: flex;
+    gap: 13.2rem;
+}
+.box-gender{
+    margin-top: 2rem;
+}
+.all-box{
+    box-shadow: 16px 32px 56px 0px #8FAECF40;
+    padding: 3.2rem;
+    width: 100%;
+    max-width: 365px;
+    background: var(--white-clr);
+    border-radius: 16px;
+    margin-right: 3.2rem;
+}
+.limitation-title{
+    font-weight: 600;
+    font-size: 4.8rem;
+    color: var(--Gunmetal);
+}
+.limitation-wrap{
+    max-width: 564px;
+}
+.age-muscle{
+    display: flex;
+        margin-top: 3.2rem;
+    margin-left: 36rem;
+}
+.race-wrap{
+    margin-top: 2.4rem;
+    display: flex;
+    margin-left: 10rem;}
+.result{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.h-wrap{
+    position: relative;
+}
+.w-wrap{
+    position: relative;
+}
+
+.hightSpanEl{
+    position: absolute;
+    font-weight: 600;
+    font-size: 2.4rem;
+    right: 4rem;
+    bottom: 2.3rem;
+    color: var(--primary-clr);
+}
+.weightSpanEl{
+    position: absolute;
+    font-weight: 600;
+    font-size: 2.4rem;
+    right: 2rem;
+    bottom: 2.3rem;
+    color: var(--primary-clr);
+}
+

@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+:root{
+  --primary-clr:#345FF6;
+  --Gunmetal:#253347;
+  --gray-clr:#5E6E85;
+  --near-white-clr:#D8E2E7;
+  --white-clr:#fff;
+}
+html{
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: var(--gray-clr);
+}
+#root{
+  width: 100%;
+  max-width: 1440px;
+  padding:0 2.4rem;
+  margin: 0 auto;
+}
+
+h1{
+  font-weight: 600;
+  font-size: 6.4rem;
+  line-height: 1.1;
+  color: var(--Gunmetal);
+  letter-spacing: -5%;
+}
+.img-span{
+  display: flex;
+  gap: 2rem;
+}
+.natija{
+  font-weight: 600;
+  font-size: 2.3rem;
+}
